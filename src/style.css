@@ -1,0 +1,246 @@
+/* 
+author: capsloth (BNSE)
+update: 15/04/2018
+*/
+
+
+
+/*************************/
+/****** Basic style ******/
+/*************************/
+
+body { background-color: #ffcc99;}
+
+div
+{
+    margin:auto;
+    text-align:center;
+}
+
+/*reference values for all divs*/
+.base
+{
+    width:370;
+    height:135px;
+    margin-top:15px;
+}
+
+/* sub displays showed on the 
+   left side under the canvas */
+.left
+{
+    float: left;
+    width: 190px;
+}
+
+
+/* sub displays showed on the 
+   right side under the canvas */
+.right
+{
+    float: right;
+    width: 150px;
+}
+
+
+/* titles, captions */
+.titles
+{
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    color: #663300; 
+    vertical-align: middle;
+    
+}
+
+/* text displayed: about, 
+   info about fractal */
+.msg
+{   display: inline-block;
+    font-family: verdana;
+    font-size: 14px;
+    color:     #663300; 
+    margin-top:11px;
+    text-align: center;
+}
+
+/* user inputs */
+input
+{
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    text-align:center;
+    border-bottom:solid 1px #663300;
+}
+
+
+
+
+
+/*************************/
+/****** Header style *****/
+/*************************/
+
+h1
+{   
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana;
+    font-size: 25px;
+    color: #994d00;
+    display: inline-block;
+    width:250px;
+}
+
+
+
+
+
+/*************************/
+/****** About style ******/
+/*************************/
+
+a
+{
+    text-decoration: none;
+    color:#b34700;
+}
+
+ul
+{
+    text-align:left;
+    font-size: 13px;
+}
+
+/* button */
+#about
+{
+    width:70px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+/* text container */
+#abt
+{
+    width:300px;
+    background-color: #ffa64d;
+}
+
+
+
+
+
+/*************************/
+/***** Buttons style *****/
+/***** Select style ******/
+/*************************/
+
+button, #slct
+{
+    width: 150px;
+    height: 27px;
+    font-weight: bold;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #663300;
+}
+
+
+/* drop-down menu */
+#slct { margin-bottom: 10px; }
+
+/* send button */
+#send { background-color: #79d279; }
+
+/* stop button */
+#stop { background-color: #ff6666; }
+
+/*buttons julia/dragon/bfern */
+.dn
+{
+    color:white;
+    background-color: #666666;
+}
+
+
+
+
+
+/*************************/
+/****** Range style ******/
+/*************************/
+
+/* value selected on range */
+.out
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+}
+
+/* range slide julia set */
+.range
+{
+    vertical-align: bottom;
+    margin-bottom:7px;
+    width: 250px;
+}
+
+/* range bfern */
+#size_in, #tr_in { width: 150px; }
+
+/* position button julia set */
+#done_jl { margin:auto; }
+
+/* title of range */
+.cap
+{
+    display: block;
+}
+
+
+
+
+
+/*************************/
+/******** Footer *********/
+/*************************/
+
+#dfoot 
+{
+    left: 0;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    background-color:#994d00;
+}
+
+#tfoot {color:#ffcc99;}
+
+
+
+
+
+/*************************/
+/****** Others style *****/
+/*************************/
+
+#canvas { background-color: #ffb366; }
+
+/* hide specific containers */
+.hide { display: none; }
+
+
+
+
+
+

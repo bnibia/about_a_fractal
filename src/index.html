@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>About a Fractal</title>
+        <script src="canvas.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        
+        <!-- Header: Fracts -->
+        <div id="dhead">
+            <h1 id="header"></h1>
+            <h1 id="about"></h1>
+        </div>
+        
+        <!-- About block -->
+        <div class="hide" id="abt">
+            <spam class="titles" id="t_abt"></spam>
+            <spam class="msg" id="p_abt"></spam>
+        </div>
+        
+        <!-- Canvas 300x300 -->
+        <div id="dcanvas">   
+            <canvas id="canvas"></canvas>
+        </div>
+        
+        <!-- Main Input: select, number repetiton, start, stop-->
+        <div class="base" id="dmain_in">
+            
+            <!-- Any informative text showed -->
+            <div class="left" id="dmesg">
+                <spam class="titles" id="t_msg"></spam>
+                <spam class="msg" id="p_msg"></spam>
+            </div>
+            
+            <!-- Input options -->
+            <div class="right">
+                <div>
+                    <select id="slct"></select>
+                    <button id="send"></button>
+                    <button id="stop"></button>
+                
+                    <div>
+                        <span class="titles" id="desc"></span>
+                        <input id="rep_in"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+         <!-- Tree Input: angles, done -->    
+        <div class="base hide" id="dtree_in">
+            
+            <!-- Input rotation angles -->    
+            <div class="left">
+                <span class="titles cap" id="infotr"></span>
+                <input class="range" id="tr_in"/>
+                <span class="out" id="tr_out"></span>
+            </div>
+            
+            <!-- New send buttons -->
+            <div class="right">
+                <button class="dn" id="done_tr"></button>
+            </div>
+    
+        </div>
+        
+        <!-- Dragon Input: angles, done -->    
+        <div class="base hide" id="ddragon_in">
+            
+            <!-- Input rotation angles -->    
+            <div class="left">
+                <div>
+                    <span class="titles" id="infodg1"></span>
+                    <input id="ang1"/>
+                </div>
+                
+                <div>
+                    <span class="titles" id="infodg2"></span>
+                    <input id="ang2"/>
+                </div>
+            </div>
+            
+            <!-- New send buttons -->
+            <div class="right">
+                <button class="dn" id="done_dg"></button>
+                <button id="clear"></button>
+            </div>
+        </div>
+        
+        <!-- BFern Input: size range, output size, start-->
+        <div class="base hide" id="dbfern_in">
+            
+            <!-- Input size -->
+            <div class="left">
+                <span class="titles cap" id="infobf"></span>
+                <input class="range" id="size_in">
+                <span class="out" id="size_out"></span>
+            </div>
+            
+            <!-- New send button -->
+            <div class="right">
+                <button class="dn" id="done_fb"></button>
+            </div>
+        </div>
+        
+        <!-- Julia Input: cx|cy input, output cx|cy, start -->
+        <div class="base hide" id="djulia_in">
+            
+            <!-- Input cx -->
+            <div>
+                <span class="titles cap" id="infocx"></span>
+                <input class="range" id="cx_in"/>
+                <span class="out" id="cx_out"></span>
+            </div>
+            
+            <!-- Input cy -->
+            <div>
+                <span class="titles cap" id="infocy"></span>
+                <input class="range" id="cy_in"/>
+                <span class="out" id="cy_out"></span>
+            </div>
+            
+            <!-- New send button -->
+            <button class="dn" id="done_jl"></button>
+        </div>
+        
+        <!-- Footer -->
+        <div id="dfoot">
+            <spam class=title id="tfoot"></spam>
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+
+
